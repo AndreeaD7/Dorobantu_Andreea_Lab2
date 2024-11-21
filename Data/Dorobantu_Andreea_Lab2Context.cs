@@ -17,5 +17,7 @@ namespace Dorobantu_Andreea_Lab2.Data
         public DbSet<Dorobantu_Andreea_Lab2.Models.Book> Book { get; set; } = default!;
         public DbSet<Dorobantu_Andreea_Lab2.Models.Publisher> Publisher { get; set; } = default!;
         public DbSet<Dorobantu_Andreea_Lab2.Models.Category> Category { get; set; } = default!;
+        public DbSet<Dorobantu_Andreea_Lab2.Models.Member> Member { get; set; } = default!;
+        public DbSet<Dorobantu_Andreea_Lab2.Models.Borrowing> Borrowing { get; set; } = default!;
     }
 }
